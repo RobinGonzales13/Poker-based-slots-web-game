@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const randomRankIndex = Math.floor(Math.random() * ranks.length);
     const randomRank = ranks[randomRankIndex];
 
-    const cardSound = new Audio('draw.mp3'); // Create a new Audio element for each card
+    const cardSound = new Audio('assets/draw.mp3'); // Create a new Audio element for each card
     cardSound.play(); // Play the card sound
 
     return {

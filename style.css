@@ -1,3 +1,9 @@
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+
 body {
     display: flex;
     justify-content: center;
